@@ -1,0 +1,472 @@
+@import 'reset.css';
+@import 'https://fonts.googleapis.com/css?family=Rubik:300,400,500,700';
+
+
+html{
+    font-size: 13px;
+    font-family: 'Rubik', Helvetica, Arial, sans-serif;
+}
+
+
+div#main {
+    background: #FFF;
+/*
+    left: 3%;
+    right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+*/
+}
+
+header {
+    padding-top: 2.5rem;
+    padding-right: 6rem;
+    padding-bottom: 2.5rem;
+    padding-left: 6rem;    
+    position: relative;
+    position:
+}
+.logo{
+    width: 400px;
+    display: inline-block;
+}
+.logo a{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    float: left;
+    display: inline-block;
+}
+
+
+/*
+.logo a{
+    height: 100px;
+}
+*/
+.logo h1 {
+    position: relative;
+    display: inline-block;
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    left: 10px;
+    font-size: 3rem; 
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    color: #795A21;
+}
+
+
+header nav{
+    height: 100px;
+    line-height: 100px;
+    float: right;
+    font-size:1.5rem;
+    color: #795A21;
+    text-transform: uppercase;
+    word-spacing: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+
+header nav ul li a {
+    color: #795A21; 
+    text-decoration:none;
+    border-bottom: 0.5rem solid #FFF;
+/*    not margin bottom*/
+    padding-bottom: 0.2em;
+    transition: 0.1s ease;
+}
+/*serialized*/
+header nav ul li a:hover,
+header nav ul li a.current {
+    color: #795A21;
+    border-bottom: 0.2rem solid;
+    border-color: #FF8B00;
+    transition: 0.1s ease;
+}
+
+
+.banner {
+    background-image: url("images/maindoggo0.jpg");
+    height: 80vh;
+    padding-left: 6rem;
+}
+
+
+
+.title{
+    padding-top: 20vh;
+    width: 400px; 
+    color: white;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.banner button{
+
+    padding-top: 10px;
+    padding:10px 50px;
+    height: 45px;
+    font-size:1.5rem;
+    font-weight: 400;
+    letter-spacing:.1rem;
+    color: white;
+    background-color: #FF8B00;
+    box-shadow: none;
+    border: none;
+}
+.banner a{
+    margin-top: 30px;
+    height:45px;
+    display:inline-block;
+}
+.banner a:hover{
+    cursor:pointer;
+}
+
+.contentBlock{
+    padding: 3rem 6rem;
+}
+
+.dogHeader{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    
+    width: 100%;
+    background-image: url("images/maindoggo4.jpg");
+    height: 70vh;    
+    background-size: 100%;
+}
+
+.catHeader{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    background-image:url(images/catHeader.jpg);
+    height: 70vh;
+    background-size: 100%;
+}
+
+/*
+.halfColumn{
+    box-sizing:border-box;
+    width: 50%;
+    padding: 3rem;
+    height: 400px;
+
+    float: left;
+    display: block;
+}
+*/
+
+
+
+
+.contentBlock h1{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: #795A21;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.contentBlock .quarterColumn{
+    width: 25%;
+    height: 450px;
+    display: block;
+    box-sizing: border-box;
+    padding: 2rem;
+    float: left;
+/*    background: #eee;*/
+    border: 2px solid transparent;
+    
+
+}
+
+
+.contentBlock .quarterColumn:hover {
+/*    background: #e1e1e1;*/
+/*    border-top: 1px solid #d0d0d0;*/
+    border-color: #795A21
+}
+.quarterColumn h2{
+    text-align: center;  
+    padding-top: 1.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #795A21;
+}
+
+.quarterColumn h3{
+    text-align: center; 
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: .7rem;
+    
+}
+
+.quarterColumn h4{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FF8B00;
+    font-weight: 400;
+    padding: .5rem;
+}
+
+.quarterColumn img{
+    max-width: 100%;
+    display: inline-block;
+}
+
+
+/*
+.contentBlock .thirdColumn{
+    box-sizing:border-box;
+    width: 33.333%;
+    padding: 3rem;
+    float: left;
+    display: block;
+}
+*/
+
+/*
+p{
+    word-break:break-all;
+    padding-left: 3rem;
+}
+*/
+/*
+.halfColumn img,.thirdColumn img{
+    width: 100%;
+}
+*/
+.clear{
+    clear:both;
+}
+
+/*______*/
+#filter{
+    background-color: #795A21;
+    height: 100px;
+    padding-left: 6rem;
+}
+#filter h1{
+    line-height: 100px;
+    display: inline-block;
+    float: left;
+}
+
+#filter a{
+    display: inline-block;
+    line-height: 100px;
+    float: left; 
+    padding-left: 1rem;
+}
+
+
+
+.pdp {
+        padding-top: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+
+.pdpItem{
+    box-sizing:border-box;
+    width: 60%;
+    float: left;
+    display: block;
+    background-image:url(images/pdpharness1.jpg);
+    background-size: 100%;
+    float: left;
+    height: 550px;
+}
+
+
+
+.pdpDetail{
+    display: inline-block;
+    width: 40%;
+}
+
+.pdpDetail h1{  
+/*    padding-top: 1.5rem;*/
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+    color: #795A21;
+}
+
+.pdpDetail h3{
+    padding-top: 1rem;
+    line-height: 2rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+.pdpDetail h2{
+    font-size: 2rem;
+    color: #FF8B00;
+    font-weight: 400;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+}
+.pdpDetail p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    font-weight: 200;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.pdpDetail li{
+    display: inline-block;
+    padding-right: 1rem;
+}
+    
+.pdpDetail button{
+
+    padding-top: 10px;
+    padding:10px 50px;
+    height: 45px;
+    font-size:1.5rem;
+    font-weight: 400;
+    letter-spacing:.1rem;
+    color: white;
+    background-color: #FF8B00;
+    box-shadow: none;
+    border: none;
+}
+.pdpDetail a{
+    height:45px;
+}
+.pdpDetail a:hover{
+    cursor:pointer;
+}
+.colors{
+    display: inline-block;
+    margin-bottom: 1.2rem;
+}
+.colorBox1 {
+    display: inline-block;
+    margin-right: 1rem;
+
+    width: 50px;
+    height: 50px;
+    background:pink;
+}
+
+.colorBox2 {
+    display: inline-block;
+    margin-right: 1rem;
+
+    width: 50px;
+    height: 50px;
+    background: #260544;
+}
+
+.colorBox3 {
+    display: inline-block;
+    margin-right: 1rem;
+
+    width: 50px;
+    height: 50px;
+    background: #CD00FF;
+}
+
+.colorBox4 {
+    display: inline-block;
+    margin-right: 1rem;
+
+    width: 50px;
+    height: 50px;
+    background:#374C0F;
+}
+
+.colorBox5 {
+    display: inline-block;
+    margin-right: 1rem;
+
+    width: 50px;
+    height: 50px;
+    background:#112C4C;
+}
+
+.colorBox6 {
+    display: inline-block;
+    margin-right: 1rem;
+
+    width: 50px;
+    height: 50px;
+    background:#FF4E00;
+}
+
+.pdpDescription{
+    padding-left: 6rem;
+    width: 55%;
+    box-sizing: border-box;
+    display:block;
+}
+
+.pdpDescription h1{
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+    color: #795A21;
+}
+
+.pdpDescription p{
+    padding-top: 1.2rem;
+    line-height: 2rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+hr.footer {
+    clear: both;
+
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+
+
+
+footer {
+    clear: both;
+    height: 50px;
+    padding: 3rem 6rem;
+    box-sizing: border-box;
+    bottom: 0;
+    font-weight: 400;
+    font-size:1rem;
+}
+
+footer p{
+    clear: both;
+
+    display: inline-block;
+    color: #795A21;
+    float: left;
+}
+
+footer ul li{
+    display: inline-block;
+    color: #795A21;
+    float: right;
+    padding-left: 2rem;
+}

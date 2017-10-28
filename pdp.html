@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Muddy Paws Adventure Gear</title>
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <!-- javascript -->
+        <script src="main.js" type="text/javascript"></script> 
+        <script src="cart.js" type="text/javascript"></script>  
+    </head>
+    <body>
+       
+        <div id="main">
+            <header>
+               <div class="logo">
+                   <a href="index.html"><img src="images/paw.svg"></a>
+                   <h1>Muddy Paws</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a id="counter" href="cart.html">Cart(<span>0</span>)</a></li>
+
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="pdp">
+            <div class="pdpItem">    
+            </div>
+            <div class="pdpDetail">
+                <h1>PROTECTOR HARNESS</h1>
+                <h3>durable, rough terrain</h3>
+                <h2>$49.99</h2>
+                <hr>
+                <p>99% of adventurers enjoyed this product! (1032 reviews)</p>
+                <hr>
+                <div class="sizes">
+                   <p>Sizes:</p>
+                    <div class="selected"><p>Tiny</p></div>
+                    <div><p>Small</p></div>
+                    <div><p>Medium</p></div>
+                    <div><p>Large</p></div>
+                </div>
+                
+                <p>Color: </p>
+                <p id = "colorName">Strawberry</p>
+                <div class="colors">
+                    <div color = "Strawberry" class = "selected colorBox1"></div>
+                    <div color = "Blackberry" class = "colorBox2"></div>
+                    <div color = "Crazyberry" class = "colorBox3"></div>
+                    <div color = "Camouflage" class = "colorBox4"></div>
+                    <div color = "NightMoon" class = "colorBox5"></div>
+                    <div color = "FireOrange" class = "colorBox6"></div>
+                </div>
+                <p>Quantity: </p>
+                <select id="quantity">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                </select>
+                <a id = "addToCart" href="#" style="color:transparent"><button>ADD TO CART</button></a>
+            </div>
+        </div>
+        <div class="pdpDescription">
+                   <h1>Description</h1>
+                   <p>The Protector Harness is a durable and sturdy harness designed for the professional adventurer. Built with the most secure materials, this harness uses all-metal fibers, a comfortable handle for gloved hands, and fashions a  pocket to carry small necessities.</p>
+        </div>
+        <hr class="footer">
+        <footer>
+            <p>© 2017 Muddy Paws Adventure Gear</p>
+            <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Use</li>
+            </ul>
+        </footer>
+    </body>
+</html>
